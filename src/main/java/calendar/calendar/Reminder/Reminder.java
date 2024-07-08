@@ -1,9 +1,6 @@
 package calendar.calendar.Reminder;
 
 
-// src/main/java/com/example/reminder/Reminder.java
-// package com.example.reminder;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -23,5 +20,4 @@ public class Reminder {
     private String endTime;
     private String reminderTime;
 
-    // Getters and setters
 }

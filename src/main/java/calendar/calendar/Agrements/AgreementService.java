@@ -3,8 +3,6 @@ package calendar.calendar.Agrements;
 
 import org.springframework.stereotype.Service;
 
-// import calendar.calendar.ExternalEvents.ExternalEvents;
-// import calendar.calendar.ExternalEvents.ExternalEventsRepository;
 
 import java.util.List;
 

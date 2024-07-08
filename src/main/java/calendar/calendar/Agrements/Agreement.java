@@ -14,7 +14,6 @@ import java.util.Date;
 public class Agreement {
     @Id
     private String id;
-    // private String title;
     private Date date;
     private String type;
     private String companyName;

@@ -1,9 +1,14 @@
 package calendar.calendar.ExternalEvents;
 
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Date;
 
-
+@Getter
+@Setter
 @Document(collection = "jobs")
 public class ExternalEvents {
     private String id;
@@ -11,21 +16,5 @@ public class ExternalEvents {
     private String issue;
     private Date date;
     
-
-    public String getId() {
-        return id;
-    }
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public String getIssue() {
-        return issue;
-    }
-
-    public Date getDate() {
-        return date;
-    }
 
 }
